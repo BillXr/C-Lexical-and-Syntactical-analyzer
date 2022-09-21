@@ -1,0 +1,54 @@
+int a;
+int b;
+string st1;
+string st2;
+float x;
+float y;
+float h;
+int num1;
+float num2;
+
+a = 10;
+b = a;
+st1 = yes;
+st2 = no;
+x = 90.2;
+y = 5.5;
+y = x;
+h = x + y;
+y = h + 2;
+num2 = num1 + 4.5;
+h = y - 4;
+num1 = 5 - 3;
+a = b * 10;
+b = 10 * 2;
+x = y * h;
+y = h * 1.5;
+a = b / 2;
+b = a / a;
+x = y / h;
+y = h / 1.5;
+a += 2;
+b++; 
+y -= 1;
+a <= 3;
+st1 || st2;
+
+inxt anum;
+flot bnum;
+strong cstr;
+
+a = randomstring;
+b = 3.4;
+a =;
+b /;
+x = anotherstring;
+a = 2 - somestring;
+b = 4 - st1;
+st1 = 4 - 2;
+st2 = st1 - 3;
+
+
+
+
+

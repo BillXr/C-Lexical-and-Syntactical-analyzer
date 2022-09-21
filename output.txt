@@ -1,0 +1,400 @@
+
+	INT: int 
+	IDENTIFIER: a 
+	SEMI: ; 
+	### Line:1 Declaration
+
+	
+: 
+ 
+	INT: int 
+	IDENTIFIER: b 
+	SEMI: ; 
+	### Line:2 Declaration
+
+	
+: 
+ 
+	STRING: string 
+	IDENTIFIER: st1 
+	SEMI: ; 
+	### Line:3 Declaration
+
+	
+: 
+ 
+	STRING: string 
+	IDENTIFIER: st2 
+	SEMI: ; 
+	### Line:4 Declaration
+
+	
+: 
+ 
+	FLOAT: float 
+	IDENTIFIER: x 
+	SEMI: ; 
+	### Line:5 Declaration
+
+	
+: 
+ 
+	FLOAT: float 
+	IDENTIFIER: y 
+	SEMI: ; 
+	### Line:6 Declaration
+
+	
+: 
+ 
+	FLOAT: float 
+	IDENTIFIER: h 
+	SEMI: ; 
+	### Line:7 Declaration
+
+	
+: 
+ 
+	INT: int 
+	IDENTIFIER: num1 
+	SEMI: ; 
+	### Line:8 Declaration
+
+	
+: 
+ 
+	FLOAT: float 
+	IDENTIFIER: num2 
+	SEMI: ; 
+	### Line:9 Declaration
+
+	
+: 
+ 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ASSIGNOP: = 
+	INTCONST: 10 
+	SEMI: ; 
+	### Line:11 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: b 
+	ASSIGNOP: = 
+	IDENTIFIER: a 
+	SEMI: ; 
+	### Line:12 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: st1 
+	ASSIGNOP: = 
+	IDENTIFIER: yes 
+	SEMI: ; 
+	### Line:13 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: st2 
+	ASSIGNOP: = 
+	IDENTIFIER: no 
+	SEMI: ; 
+	### Line:14 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: x 
+	ASSIGNOP: = 
+	FLOAT: 90.2 
+	SEMI: ; 
+	### Line:15 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: y 
+	ASSIGNOP: = 
+	FLOAT: 5.5 
+	SEMI: ; 
+	### Line:16 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: y 
+	ASSIGNOP: = 
+	IDENTIFIER: x 
+	SEMI: ; 
+	### Line:17 Variable assignment
+
+	
+: 
+ 
+	IDENTIFIER: h 
+	ASSIGNOP: = 
+	IDENTIFIER: x 
+	PLUS: + 
+	IDENTIFIER: y 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: y 
+	ASSIGNOP: = 
+	IDENTIFIER: h 
+	PLUS: + 
+	INTCONST: 2 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: num2 
+	ASSIGNOP: = 
+	IDENTIFIER: num1 
+	PLUS: + 
+	FLOAT: 4.5 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: h 
+	ASSIGNOP: = 
+	IDENTIFIER: y 
+	SUB: - 
+	INTCONST: 4 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: num1 
+	ASSIGNOP: = 
+	INTCONST: 5 
+	SUB: - 
+	INTCONST: 3 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ASSIGNOP: = 
+	IDENTIFIER: b 
+	MULT: * 
+	INTCONST: 10 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: b 
+	ASSIGNOP: = 
+	INTCONST: 10 
+	MULT: * 
+	INTCONST: 2 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: x 
+	ASSIGNOP: = 
+	IDENTIFIER: y 
+	MULT: * 
+	IDENTIFIER: h 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: y 
+	ASSIGNOP: = 
+	IDENTIFIER: h 
+	MULT: * 
+	FLOAT: 1.5 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ASSIGNOP: = 
+	IDENTIFIER: b 
+	DIV: / 
+	INTCONST: 2 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: b 
+	ASSIGNOP: = 
+	IDENTIFIER: a 
+	DIV: / 
+	IDENTIFIER: a 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: x 
+	ASSIGNOP: = 
+	IDENTIFIER: y 
+	DIV: / 
+	IDENTIFIER: h 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: y 
+	ASSIGNOP: = 
+	IDENTIFIER: h 
+	DIV: / 
+	FLOAT: 1.5 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ADDITION AND ASSIGNMENT OPERATOR: += 
+	INTCONST: 2 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: b 
+	INCREMENT: ++ 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: y 
+	SUBSTRACT AND ASSIGNMENT OPERATOR: -= 
+	INTCONST: 1 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: a 
+	LESS THAN OR EQUAL TO: <= 
+	INTCONST: 3 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: st1 
+	LOGICAL OR OPERATOR: || 
+	IDENTIFIER: st2 
+	SEMI: ; 
+	
+: 
+ 
+	
+: 
+ 
+	IDENTIFIER: inxt 
+	IDENTIFIER: anum 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: flot 
+	IDENTIFIER: bnum 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: strong 
+	IDENTIFIER: cstr 
+	SEMI: ; 
+	
+: 
+ 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ASSIGNOP: = 
+	IDENTIFIER: randomstring 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: b 
+	ASSIGNOP: = 
+	FLOAT: 3.4 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ASSIGNOP: = 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: b 
+	DIV: / 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: x 
+	ASSIGNOP: = 
+	IDENTIFIER: anotherstring 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: a 
+	ASSIGNOP: = 
+	INTCONST: 2 
+	SUB: - 
+	IDENTIFIER: somestring 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: b 
+	ASSIGNOP: = 
+	INTCONST: 4 
+	SUB: - 
+	IDENTIFIER: st1 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: st1 
+	ASSIGNOP: = 
+	INTCONST: 4 
+	SUB: - 
+	INTCONST: 2 
+	SEMI: ; 
+	
+: 
+ 
+	IDENTIFIER: st2 
+	ASSIGNOP: = 
+	IDENTIFIER: st1 
+	SUB: - 
+	INTCONST: 3 
+	SEMI: ; 
+	
+: 
+ 
+	
+: 
+ 
+	
+: 
+ 
+	
+: 
+ 
+	
+: 
+ 
+	
+: 
+ 
+	end of file
+:  
