@@ -1,4 +1,5 @@
-C-Lexical-and-Syntactical-analyzer
+## C-Lexical-and-Syntactical-analyzer
+
 Lexical and Syntactical analyzer for Uni-C language(C language)
 
 This repository contains code for lexic and syntactic analyze of Uni-C language (practically same as C language) that identify tokens from input file and write the kind of token that it is in output file.In addition from C-Lexical-Analyzer repo ,this is an updated version of this project,which include bison code that identify declarations,variable assignments and operators between tokens.
